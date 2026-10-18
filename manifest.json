@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.bryanperdana.bar-collapse",
+  "name": "Bar Collapse",
+  "version": "0.1.0",
+  "author": "Bryan Perdana",
+  "license": "MIT",
+  "description": "Bartender-style arrow that hides chosen bar widgets behind one click.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Bar Collapse",
+    "description": "Click to show or hide extra widgets; right-click to choose which ones.",
+    "category": "Status",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "hidden": [],
+      "stash": [],
+      "expanded": true
+    }
+  }
+}
