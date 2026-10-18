@@ -1,5 +1,7 @@
 # Bar Collapse
 
+![Bar Collapse](assets/banner.jpg)
+
 A Bartender-style arrow for the [Omarchy](https://omarchy.org) bar. Hide the
 widgets you rarely look at behind one click and keep the bar short.
 
